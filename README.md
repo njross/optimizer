@@ -7,22 +7,21 @@ The circuit optimizations were carried out using the techniques
 detailed in the following paper.
 
 * Y. Nam, N.J. Ross, Y. Su, A.M. Childs, and D. Maslov. Automated
-  optimization of large quantum circuits wih continuous
+  optimization of large quantum circuits with continuous
   parameters. October 2017.
 
-The circuits are
+The circuits fall into three categories.
 
-1. Circuits for the Quantum Fourier Transform.
+1. Components of Shor's factoring oracle: Quantum Fourier Transform
+(QFT) circuits, adder circuits from the Quipper arithmetic library,
+and QFT-based adders. These circuits can be found in the
+QFT_and_Adders folder.
 
-2. Adder circuits based in the Quipper library.
+2. Circuits for quantum simulation using product formulas. These
+circuits can be found in the PF folder.
 
-3. Adder circuits based on the Quantum Fourier Transform.
-
-4. Product formula algorithms for quantum simulation.
-
-5. A variety of circuits that optimized in prior approaches. Which
-include arithmetic circuits, multiply controlled-toffoli gates, and
-Galois Field multiplier circuits.
+3. Arithmetic and Toffoli circuits. These circuits can be found in the
+Arithmetic_and_Toffoli folder.
 
 All circuits are are given in the ASCII format of the Quipper
 language. See http://www.mathstat.dal.ca/~selinger/quipper/ for more
