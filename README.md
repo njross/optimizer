@@ -12,7 +12,7 @@ detailed in the following paper.
 
 The circuits fall into three categories.
 
-1. Components of Shor's factoring oracle: Quantum Fourier Transform
+1. Components of Shor's factoring algorithm: Quantum Fourier Transform
 (QFT) circuits, adder circuits from the Quipper arithmetic library,
 and QFT-based adders. These circuits can be found in the
 QFT_and_Adders folder.
