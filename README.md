@@ -8,7 +8,8 @@ detailed in the following paper.
 
 * Y. Nam, N.J. Ross, Y. Su, A.M. Childs, and D. Maslov. Automated
   optimization of large quantum circuits with continuous
-  parameters. October 2017.
+  parameters. October 2017. Available from
+  https://arxiv.org/abs/1710.07345.
 
 The circuits fall into three categories.
 
